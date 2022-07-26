@@ -6,7 +6,7 @@ import logo from "../logo.svg";
 
 export const Navigation = () => {
   return (
-    <Suspense>
+    <Suspense fallback={<span>Loading...</span>}>
       <BrowserRouter>
         <div className="main-layout">
           <nav>
