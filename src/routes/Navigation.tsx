@@ -1,4 +1,6 @@
+import { Suspense } from "react";
 import { BrowserRouter } from "react-router-dom";
+
 import { Routes, Route, NavLink, Navigate } from "react-router-dom";
 
 import logo from "../logo.svg";
@@ -44,5 +46,6 @@ export const Navigation = () => {
         </Routes>
       </div>
     </BrowserRouter>
+
   );
 };
